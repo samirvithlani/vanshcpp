@@ -1,0 +1,74 @@
+pops --> procedure --> l
+
+        class and objects.. oops machine languge...
+
+oop --> object oriented programming --> o
+
+        class objetc ....
+        real time application....
+        sclable application... using oops concept...
+
+#NAMIG CONVENTION 
+
+1) class name --> first letter capital and join with camel case
+2) variable name --> first letter small and join with camel case
+3) function name --> first letter small and join with camel case
+
+
+
+4 pillars of oops
+----------------------------------------------------------------------
+1) encapsulation
+    1) data hiding
+        access specifiers
+            public
+            private
+            protected
+    2) data binding
+        1) static binding
+            : binding the data at compile time
+        2) dynamic binding
+            : binding the data at run time
+    3) data abstraction
+
+    4) data encapsulation
+        :class and object ,method and function, variable and data member
+        constructor and destructor
+
+class: class is a collection of objects, data member and member function, class is a blue print of object
+
+object: object is a real time entity, 
+object is a instance of class, object is a run time entity
+
+class    object 
+
+Fruit     apple    applle is fruit and fruit has apple
+Vehicle   car      car is Vehicle and Vehicle has car
+
+School    student  
+Shose      Nike
+
+
+: class keyword.. 
+--------------------------------------------------------------------------------------------------------------
+
+
+2) abstraction
+    1) abstract class
+    2) abstract method
+    3) interface
+    
+3) inheritance
+    1) single inheritance
+    2) multilevel inheritance
+    3) multiple inheritance
+    4) hybrid inheritance
+    5) hierarchical inheritance
+
+4) polymorphism        
+    1) compile time polymorphism
+        1) function overloading
+        2) operator overloading
+    2) run time polymorphism
+        1) function overriding
+        2) virtual function

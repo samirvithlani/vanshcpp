@@ -1,0 +1,6 @@
+# create class for Employee get employee Data from console...
+# enter employee name: enter monthly salary --> 20000 , ---> yearly 20000 * 12 = 240000
+# if employee's salary > 200000 then he is eligible for 2 wheeler loan
+# if employee's salary > 500000 then he is eligible for 4 wheeler loan
+# if employee's salary > 1000000 then he is eligible for house loan
+# if employee's salary < 200000 then he is not eligible for any loan but eligible for credit card
