@@ -125,3 +125,48 @@ type:
         : destructor is special function which has same name as class name but with ~ sign
 
 
+
+polymorphism: poly means many and morphism means form, so polymorphism means many form of function
+Phone: watch, call,toarch
+person : employee,Son / h....., 
+
+compile time polymorphism: function overloading and operator overloading
+
+function overloading:
+same name of function in same class with different parameter is called function overloading
+
+
+search(String produname)
+search(String produname,int price)
+search(String produname,int price,string color)
+
+
+
+run time polymorphism: function overriding and virtual function
+
+overriding: 
+same name of function develope in child class it is called overriding
+
+GOV : --> parent class
+
+GOV
+call()
+
+
+JIO --> SIM CARD 
+    jiocall()
+    call()
+AIRTLE --> SIM CARD
+    airetlcall()
+    call()
+
+
+macd --> 
+
+macd --> india 
+
+    burger(param list...)
+
+
+macd --> maninagar
+    burger(param list...)
