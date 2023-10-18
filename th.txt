@@ -170,3 +170,33 @@ macd --> india
 
 macd --> maninagar
     burger(param list...)
+
+
+#smart pointers:
+
+smart pointers are the objects which are used to store the address of dynamically allocated memory
+1)auto_ptr
+2)unique_ptr
+3)shared_ptr
+4)weak_ptr
+
+#auto_ptr:
+1)using auto_ptr we can manage objects obtain from new expression and delter threm when auto_ptr its self destroy
+2)whene an object is describe through auto pointer is stores a pointer to single object
+
+#unique_ptr:
+unique_ptr stores one pointer only. we can assig object by removing current object from pointer..
+
+#shared_ptr:
+by using shared ptr more than one pointer can point to same object
+. it uses reference counting to manage the object
+
+#weak_ptr:
+weak_ptr is a smart pointer that holds a non-owning reference to an object that is managed by shared_ptr.
+//non_owning means it does not have ownership of the object
+
+Problems with Normal Pointers:
+memory leak
+dangling pointer
+wild pointer
+buffer overflow
