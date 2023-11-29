@@ -200,3 +200,117 @@ memory leak
 dangling pointer
 wild pointer
 buffer overflow
+
+
+what is classs?
+class is bluprint in which we can define data member and member function
+
+UML CLASS diagram:
+
+Bank class
+Users --> user releted data member and member function
+
+requirement of well formed class diagram:
+1)completeness and sufficiency : all the data member and member function should be present in class diagram
+
+Product class
+    name
+    price
+    qty
+    total
+    discount
+    netprice
+    tax
+    netprice
+    gst
+    netprice
+    total
+
+    calculateTotal()
+    calculateDiscount()
+    calculateTax()
+    calculateGst()
+    calculateNetPrice()
+    calculateFinalPrice()
+    addProduct()
+    removeProduct()
+    updateProduct()
+    searchProduct()
+    displayProduct()
+
+
+2)Primitiveness : 
+3)Low coupling : it define independency of class
+    tight coupling : if one class is dependent on another class
+
+            class DTDC{
+
+                courier -->
+            }
+            class Amazone : public DTDC{
+
+    
+            }   
+
+4)High cohesion : it define the relationship between data member and member function
+low cohesion : if data member and member function are not related to each other
+
+Class Users{
+
+    /// Users releted fetures
+    //otp//mail // logs///
+
+}
+
+otp{
+
+        //security....
+}
+
+
+
+loosely coupled and highly cohesive class diagram is called well formed class diagram
+
+
+Aggregation : it is a special form of association where all object have their own life cycle but there is ownership
+Vehicle Has a Engine
+School has a student
+inheritance :
+    is-a relationship
+    circle is a shape
+    square is a shape
+    rectangle is a shape
+    triangle is a shape
+    
+
+
+
+
+
+Term and defination                                     symbols
+----------------------------------------------------------------------------------------------------------------
+A class:
+
+
+
+ProductDetail -->
+
+
+
+
+realtion:
+exactly one  [ont to one relation ]  1:1 [Flight and pilo,department and hod][School,principal]
+zero and more [] 0..* [department and student] [School,student]
+one and more [] 1..* [department and hod,flight and passenger][store,customers]
+zero or one [] 0..1 [an employee can be married or unmarried] [perspn ,empyeed unemployed]
+specific range 2.3 [flight and pilot] 2 flight has 3 pilots [][]
+multipule disjoint ranges 1.3.5 [a studeny commitee] an student is member of 1 to 3 or 5 commitee
+
+
+paitent --->doctor --> hospital-->appoinment
+1 paitent can have 1 doctor
+1 doctor can have 1 hospital
+1 paitent schedule 1 appoinment with 1 doctor
+1 doctor can have  many appoinment of many paitent
+1 appoinment can have 1 billing
+1 paitent can have zero or more medical history
